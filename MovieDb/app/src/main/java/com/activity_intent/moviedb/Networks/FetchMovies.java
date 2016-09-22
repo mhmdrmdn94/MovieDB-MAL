@@ -114,7 +114,7 @@ public class FetchMovies extends AsyncTask<String,Void,ArrayList<Movie>>
 
                 final String BASE_URL = "http://api.themoviedb.org/3/";
                 final String DISCOVER_URL = "discover/movie?";
-                final String API_KEY = "83268b175c6cdb760409eead3c9ec72a";
+                final String API_KEY = "{yout_api_key}";
 
                 Uri buildUri = Uri.parse(BASE_URL + DISCOVER_URL).buildUpon()
                         //  .appendQueryParameter("sort_by", "popularity.desc")
