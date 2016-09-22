@@ -67,7 +67,7 @@ public class FetchReviews extends AsyncTask<Integer,Void, ArrayList<Review>>
         try {
 
             final String BASE_URL = "http://api.themoviedb.org/3/movie/"+params[0]+"/reviews?";
-            final String API_KEY = "83268b175c6cdb760409eead3c9ec72a";
+            final String API_KEY = "{yout_api_key}";
 
             Uri buildUri = Uri.parse(BASE_URL).buildUpon()
                     .appendQueryParameter("api_key", API_KEY)
