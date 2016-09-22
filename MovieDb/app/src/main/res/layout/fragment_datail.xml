@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/detail_title"
+        android:text="Title"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:background="#f9e8ca"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/detail_poster_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/detail_release_year"
+                android:text="2020"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#444444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/detail_rate"
+                android:text="7.91 / 10"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#555555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Add to Favourites"
+                android:textAllCaps="false"
+                android:id="@+id/detail_favourite_btn"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:background="#c6ecfd"
+                android:textColor="#555555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/detail_overview"
+        android:text="Overview"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/trailers"
+        android:layout_height="wrap_content"></ListView>
+
+
+</LinearLayout>

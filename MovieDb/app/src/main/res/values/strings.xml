@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MovieDb</string>
+    <string name="action_topM">Top Rated Movies</string>
+    <string name="action_popularM">Most Popular Movies</string>
+    <string name="action_favouriteM">Favourites</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="no_favourites">SORRY, You do not have favourites</string>
+    <string name="no_reviews">This movie have no reviews!</string>
+    <string name="no_trailers">This movie have no trailers!</string>
+
+</resources>
