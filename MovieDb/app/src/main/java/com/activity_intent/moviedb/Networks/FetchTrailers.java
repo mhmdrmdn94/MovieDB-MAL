@@ -74,7 +74,7 @@ public class FetchTrailers extends AsyncTask<Integer,Void, ArrayList<Trailer>>
         try {
 
             final String BASE_URL = "http://api.themoviedb.org/3/movie/"+params[0]+"/videos?append_to_response=videos";
-            final String API_KEY = "83268b175c6cdb760409eead3c9ec72a";
+            final String API_KEY = "{yout_api_key}";
 
             Uri buildUri = Uri.parse(BASE_URL).buildUpon()
                     .appendQueryParameter("api_key", API_KEY)
